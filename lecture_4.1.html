@@ -19,7 +19,7 @@
         <input id="name" name="name" placeholder="Smith" type="text" required >
 
 
-    <br> 
+<br> 
         <label for="radio"> Male</label>
         <input id="radio" name="marketingPreference" type="radio">
 
@@ -29,25 +29,38 @@
         <label for="radio"> Other</label>
         <input id="radio" name="marketingPreference" type="radio">
    
-    <br>    
-    <select id="Month-select">
-            <label for="text"> Month</label>
-            <input id="text" name="option" type="option">
-            <option value="">--Month--</option>
-            <option value="November">November</option>
-            <option value="December">December</option>
-    </select>
-
 <br> 
-        <label for="email">Email:</label>
+        <label for="email">Email</label>
         <input id="email" name="email" placeholder="name@example.com" type="email" required >
      
-        <label for="password">Password:</label>
+        <label for="password">Password</label>
         <input id="password" name="password" placeholder="password" minlength="6" maxlength="16" type="password" required>
 
+<br>    
+        <label for="Month">Birthday</label>
+        <form action="http://www.example.com/profile.php">
+        <select name="Month" placeholder="Month">
+        <option value="November">November</option>
+        <option value="December">December</option>
+        <option value="January">January</option>
+        </select>
+
+        <select name="Day" placeholder="Day">
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            </select>
+
+            <select name="Year"  placeholder="Year">
+                <option value="1988">1988</option>
+                <option value="1990">1990</option>
+                <option value="1998">1998</option>
+                </select>
+        </form>
     
-    <p> I agree to the terms and conditions</p>
-<br>
+    
+    <p> I agree to the terms and conditions  <input type="checkbox" name="checkbox"></p> 
+   
   
         <button> Submit</button>
     </form>
