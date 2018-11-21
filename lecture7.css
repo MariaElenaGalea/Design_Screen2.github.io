@@ -1,7 +1,19 @@
-td {
-    border: 1px;
-    border-width: 3px;
-    height: 100px;
+h1 {
+    text-align: center;
+    color: blue;
+  }
+  td {
     width: 100px;
-    color:blue;
-    }
+    height: 100px;
+  }
+  table {
+    margin: 5px auto;
+  }
+  .V {
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+  }
+  .H {
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+  }
