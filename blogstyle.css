@@ -1,0 +1,23 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  #354b63;
+    text-align: justify;
+    
+}
+#main {
+    border: 20px solid;
+    border-color: #bdc7cf;
+    padding: 5px;
+}
+
+h5{
+    color:  #3098dd ;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+#paragraph {
+    border-left: 5px solid #bdc7cf;
+    padding-left: 10px;
+
+}
