@@ -2,6 +2,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color:  #354b63;
     text-align: justify;
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 16px;
     
 }
 #main {
@@ -12,7 +15,7 @@ body {
 
 h5{
     color:  #3098dd ;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-transform: uppercase
 }
 
